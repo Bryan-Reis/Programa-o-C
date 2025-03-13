@@ -47,10 +47,6 @@ int main(){
     float PIBCAP = (float) PIB / população;
     printf("O PIB por capital é: %.2f", PIBCAP);
 
-    printf("Carta 1 \nNome: %s\nEstado: %s\n", &nome, &estado);
-    printf("Codigo %c%s\n", estado, codigo);
-    printf("População: %d\nPib: %.2f\nArea: %.2f\nPontos turisticos: %d\nDensidade: %.2f\nPIB por capital: %.2f\n",população, PIB, area, Npontosturisticos, densidade, PIBCAP);
-
 
     printf("Carta 2 \n");
 
@@ -88,9 +84,7 @@ int main(){
     float PIBCAP2 = (float) PIB / população;
     printf("O PIB por capital é: %.2f\n", PIBCAP2);
 
-    printf("Carta 2 \nNome: %s\nEstado: %s\n", &nome, &estado);
-    printf("Codigo %c%s\n", estado, codigo);
-    printf("População: %d\nPib: %.2f\nArea: %.2f\nPontos turisticos: %d\nDensidade: %.2f\nPIB por capital: %.2f\n",população, PIB, area, Npontosturisticos, densidade, PIBCAP);
+
     
     return 0;
 
