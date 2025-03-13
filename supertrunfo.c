@@ -40,11 +40,6 @@ int main(){
     scanf("%d", &Npontosturisticos);
     printf("A quantidade de pontos turisticos é: %d \n", Npontosturisticos);
     
-    printf("Carta 1 \nNome: %s\nEstado: %s\n", &nome, &estado);
-    printf("Codigo %c%s\n", estado, codigo);
-    printf("População: %d\nPib: %.2f\nArea: %.2f\nPontos turisticos: %d\n",população, PIB, area, Npontosturisticos);
-    
-
     printf("Carta 2 \n");
 
     printf("Escreva o nome da cidade\n");
@@ -75,9 +70,6 @@ int main(){
     scanf("%d", &Npontosturisticos);
     printf("A quantidade de pontos turisticos é: %d \n", Npontosturisticos);
 
-     printf("Carta 2 \nNome: %s\nEstado: %s\n", &nome, &estado);
-    printf("Codigo %c%s\n", estado, codigo);
-    printf("População: %d\nPib: %.2f\nArea: %.2f\nPontos turisticos:",população, PIB, area, Npontosturisticos);
     
     return 0;
 
